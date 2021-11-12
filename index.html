@@ -17,11 +17,6 @@
   </head>
 
   <style>
-    .typeList:hover{
-      color: rgb(19, 128, 0);
-      text-decoration: underline;
-    }
-
     .hoverStyle:hover{
       color: rgb(19, 128, 0);
       text-decoration: underline;
@@ -73,25 +68,25 @@
             md:ml-auto md:mr-auto
             flex flex-wrap
             items-center
-            text-base
+            text-black
             justify-center
           "
         >
-          <a href="#" class="mr-5 hover:text-gray-900">Home</a>
-          <a href="#" class="mr-5 hover:text-gray-900">Reports</a>
-          <a href="#" class="mr-5 hover:text-gray-900">About</a>
-          <a href="#" class="mr-5 hover:text-gray-900">Contact</a>
+          <a href="#" class="mr-5 hover:text-gray-900 hoverStyle">Home</a>
+          <a href="#" class="mr-5 hover:text-gray-900 hoverStyle">Reports</a>
+          <a href="#" class="mr-5 hover:text-gray-900 hoverStyle">About</a>
+          <a href="#" class="mr-5 hover:text-gray-900 hoverStyle">Contact</a>
         </nav>
         <button
           class="
+            text-white
             inline-flex
             items-center
-            bg-gray-100
             border-0
             py-1
             px-3
-            focus:outline-none
-            hover:bg-gray-200
+            bg-green-500
+            hover:bg-green-700
             rounded
             text-base
             mt-4
@@ -163,7 +158,7 @@
               <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
                 About Brain Tumor
               </h2>
-              <p class="leading-relaxed text-base" style="text-align: justify;">
+              <p class="leading-relaxed text-black" style="text-align: justify;">
                 A brain tumor is a mass or growth of abnormal cells in your
                 brain. Many different types of brain tumors exist. Some brain
                 tumors are noncancerous (benign), and some brain tumors are
@@ -192,16 +187,16 @@
               <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
                 Types
               </h2>
-              <p class="leading-relaxed text-base">
-                <ul style="list-style: disc; text-align: initial;">
-                  <a target = "_blank" href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/meningioma" class="typeList"><li>Meningioma</li></a>
-                  <a target = "_blank" href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/pituitary-tumors" class="typeList"><li>Pituitary Adenoma</li></a>
-                  <a target = "_blank" href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/craniopharyngioma" class="typeList"><li>Craniopharyngioma</li></a>
-                  <a target = "_blank" href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/brain-tumor/vestibular-schwannoma" class="typeList"><li>Schwannoma</li></a>
-                  <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4989574/#:~:text=Abstract,skull%20and%20into%20the%20cranium." class="typeList"><li>Nasopharyngeal Angiofibroma</li></a>
-                  <a target = "_blank" href="https://www.mayoclinic.org/diseases-conditions/choroid-plexus-carcinoma/cdc-20352982#:~:text=A%20choroid%20plexus%20carcinoma%20is,called%20a%20choroid%20plexus%20papilloma." class="typeList"><li>Choroid Plexus Tumor</li></a>
-                  <a target = "_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4696533/#:~:text=Dysembryoplastic%20neuroepithelial%20tumor%20(DNT)%20is,mass%20effect%20or%20perilesional%20edema." class="typeList"><li>Dysembryoplastic Neuroepithelial Tumor</li></a>
-                  <a target = "_blank" href="http://www.hopkinsmedicine.org/healthlibrary/conditions/adult/nervous_system_disorders/neurocutaneous_syndromes_85,p00794/" class="typeList"><li>Neurofibroma</li></a>
+              <p class="leading-relaxed">
+                <ul style="color: black; list-style: disc; text-align: initial;">
+                  <a target = "_blank" href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/meningioma" class="hoverStyle"><li>Meningioma</li></a>
+                  <a target = "_blank" href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/pituitary-tumors" class="hoverStyle"><li>Pituitary Adenoma</li></a>
+                  <a target = "_blank" href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/craniopharyngioma" class="hoverStyle"><li>Craniopharyngioma</li></a>
+                  <a target = "_blank" href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/brain-tumor/vestibular-schwannoma" class="hoverStyle"><li>Schwannoma</li></a>
+                  <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4989574/#:~:text=Abstract,skull%20and%20into%20the%20cranium." class="hoverStyle"><li>Nasopharyngeal Angiofibroma</li></a>
+                  <a target = "_blank" href="https://www.mayoclinic.org/diseases-conditions/choroid-plexus-carcinoma/cdc-20352982#:~:text=A%20choroid%20plexus%20carcinoma%20is,called%20a%20choroid%20plexus%20papilloma." class="hoverStyle"><li>Choroid Plexus Tumor</li></a>
+                  <a target = "_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4696533/#:~:text=Dysembryoplastic%20neuroepithelial%20tumor%20(DNT)%20is,mass%20effect%20or%20perilesional%20edema." class="hoverStyle"><li>Dysembryoplastic Neuroepithelial Tumor</li></a>
+                  <a target = "_blank" href="http://www.hopkinsmedicine.org/healthlibrary/conditions/adult/nervous_system_disorders/neurocutaneous_syndromes_85,p00794/" class="hoverStyle"><li>Neurofibroma</li></a>
                 </ul>
               </p>
             </div>
@@ -237,7 +232,7 @@
               <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
                 Specialist's talk
               </h2>
-              <p class="leading-relaxed text-base" style="text-align: justify;">
+              <p class="leading-relaxed text-black" style="text-align: justify;">
                 Have a look at some famous Neurologists and book an appointment :
               </p>
             </div>
@@ -253,7 +248,7 @@
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
               <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Dr. Shirish Hastak
               </h1>
-              <p class="mb-8 leading-relaxed" style="text-align: justify;">
+              <p class="mb-8 leading-relaxed  text-black" style="text-align: justify;">
                 <b>Designation:</b> Director of Neurology <br>
 
                 <b>Hospital:</b> Wockhardt Hospital, Mumbai, Maharashtra <br>
@@ -280,7 +275,7 @@
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
               <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Dr. Dinesh Nayak
               </h1>
-              <p class="mb-8 leading-relaxed" style="text-align: justify;">
+              <p class="mb-8 leading-relaxed text-black" style="text-align: justify;">
                 <b>Designation:</b> Director, Head of the Department, Neurologist, Epileptologist <br>
 
                 <b>Hospital:</b> Gleneagles Global Hospital, Perumbakkam, Chennai <br>
@@ -307,7 +302,7 @@
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
               <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Dr. Anand Kumar Saxena
               </h1>
-              <p class="mb-8 leading-relaxed" style="text-align: justify;">
+              <p class="mb-8 leading-relaxed text-black" style="text-align: justify;">
                 <b>Designation:</b> Head of the Department, Neurologist <br>
 
                 <b>Hospital:</b> Max Super Specialty Hospital, Saket, Delhi <br>
@@ -333,7 +328,7 @@
             </div>
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
               <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Dr. Mukul Verma</h1>
-              <p class="mb-8 leading-relaxed" style="text-align: justify;">
+              <p class="mb-8 leading-relaxed text-black" style="text-align: justify;">
                 <b>Designation:</b> Senior Consultant <br>
 
                 <b>Hospital:</b> Indraprastha Apollo Hospital, Delhi <br>
@@ -360,7 +355,7 @@
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
               <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Dr. Atma Ram Bansal
               </h1>
-              <p class="mb-8 leading-relaxed" style="text-align: justify;">
+              <p class="mb-8 leading-relaxed text-black" style="text-align: justify;">
                 <b>Designation:</b> Senior Consultant, Neurologist <br>
 
                 <b>Hospital:</b> Max Super Specialty Hospital, New Delhi <br>
