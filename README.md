@@ -10,6 +10,8 @@ with user friendly interface:
 
 - Upload the MRI scan in jpg format.
 
+![5th](https://user-images.githubusercontent.com/75232316/141626668-17bf5774-f4ac-4074-a56b-0287c2fee542.png)
+
 - Get the result within seconds with utmost accuracy.
 
 
