@@ -33,10 +33,6 @@
             padding: 10px;
         }
 
-        .info {
-            margin-top: 60px;
-        }
-
         .second-main {
             background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.7)), url('static/css/b4.jpg');
             background-size: cover;
@@ -90,11 +86,11 @@
         <h1 style="text-align: center;font-size:40px;padding:20px;color:black;">Results</h1>
         <div class="header">
             <row style="width: 100% ; display: flex; justify-content: center;">
-                <img class="result-img" src={{url_for('static', filename='upload/' + img)}}>
+                <img class="result-img" src={{url_for('static', filename='upload/' + img)}} style="width: 10em">
             </row>
         </div>
 
-        <div class="info">
+        <div class="info" style="margin-top: 1em;">
             <row style="width: 100% ; display: flex; justify-content: center;">
             </row>
             <row style="width: 100%; display: flex; justify-content: center;">
