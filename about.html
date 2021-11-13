@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>About Us</title>
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa2ScOTOepukc7PQ9K6CeOsOV6eRw-Jzmw49zaAbv9kE6A23Lh55t6MLJayG2EK5mqfUY&usqp=CAU"
+      type="image/x-icon"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="text-gray-600 body-font">
+      <div
+        class="
+          container
+          mx-auto
+          flex flex-wrap
+          p-5
+          flex-col
+          md:flex-row
+          items-center
+        "
+      >
+        <a
+          class="
+            flex
+            title-font
+            font-medium
+            items-center
+            text-gray-900
+            mb-4
+            md:mb-0
+          "
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="
+              bi bi-check2-all
+              w-10
+              h-10
+              text-white
+              p-2
+              bg-green-500
+              rounded-full
+            "
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"
+            />
+            <path
+              d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"
+            />
+          </svg>
+          <span class="ml-3 text-xl">Neuro Care</span>
+        </a>
+        <nav
+          class="
+            md:ml-auto md:mr-auto
+            flex flex-wrap
+            items-center
+            text-black
+            justify-center
+          "
+        >
+          <a href="#" class="mr-5 hover:text-gray-900 hoverStyle">Home</a>
+          <a
+            href="#"
+            class="mr-5 hover:text-gray-900 hoverStyle"
+            style="color: red"
+            >About</a
+          >
+          <a href="#" class="mr-5 hover:text-gray-900 hoverStyle">Contact</a>
+        </nav>
+        <button
+          class="
+            text-white
+            inline-flex
+            items-center
+            border-0
+            py-1
+            px-3
+            bg-green-500
+            hover:bg-green-700
+            rounded
+            text-base
+            mt-4
+            md:mt-0
+          "
+        >
+          Predict Tumor
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <section class="text-gray-600 body-font">
+      <div class="container mx-auto" style="padding: 3em;">
+        <div class="flex flex-wrap w-full mb-20">
+          <div class="lg:w-1/2 w-full mb-6 lg:mb-0" style="width: 39em">
+            <h1
+              class="
+                sm:text-3xl
+                text-2xl
+                font-medium
+                title-font
+                mb-2
+                text-gray-900
+              "
+              style="text-align: center; margin-top: 1.8em;"
+            >
+              What it does?
+            </h1>
+            <div
+              class="h-1 w-20 bg-green-500 rounded"
+              style="margin: auto"
+            ></div>
+          </div>
+          <p class="lg:w-1/2 leading-relaxed" style="color: black; text-align: justify;">
+            <span style="font-weight: bolder; font-size:large;">⮞</span> The report after the MRI Scan takes a lot of time to return to the patient, which results into nothing but just tention.
+            Sometimes during an emergency, this time gap can be fatal and
+            usually people become very anxious while waiting for the report. <br><br>
+            <span style="font-weight: bolder; font-size:large;">⮞</span> Through this web application they can easily <span style="font-weight: 649;">check for the predicted results calculated by our trained model for Brain Tumor Detection<span style="font-weight: 649;">.
+          </p>
+        </div>
+        <div class="flex" style="display: flex; text-align: center; justify-content: center;">
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div class="bg-gray-100 p-6 rounded-lg">
+              <img
+                class="h-40 rounded w-full object-cover object-center mb-6"
+                src="static/images/choose&Upload.png"
+                alt="content"
+              />
+              <h3
+                class="
+                  tracking-widest
+                  text-green-600 text-xs
+                  font-medium
+                  title-font
+                "
+              >
+                STEP 1
+              </h3>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-3">
+                Choose & Upload Image
+              </h2>
+              <p class="leading-relaxed text-base" style="text-align: justify;">Choose your MRI Scanned image from your device and click Upload.
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div class="bg-gray-100 p-6 rounded-lg">
+              <img
+                class="h-40 rounded w-full object-cover object-center mb-6"
+                src="static/images/modelCalculation.png"
+                alt="content"
+              />
+              <h3
+                class="
+                  tracking-widest
+                  text-green-600 text-xs
+                  font-medium
+                  title-font
+                "
+              >
+                STEP 2
+              </h3>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-3">
+                Model checks for Tumor
+              </h2>
+              <p class="leading-relaxed text-base" style="text-align: justify;">
+                The trained model runs the calculations and checks for the tumor
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div class="bg-gray-100 p-6 rounded-lg">
+              <img
+                class="h-40 rounded w-full object-cover object-center mb-6"
+                src="static/images/result.png"
+                alt="content"
+              />
+              <h3
+                class="
+                  tracking-widest
+                  text-green-600 text-xs
+                  font-medium
+                  title-font
+                "
+              >
+                STEP 3 
+              </h3>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-3">
+                Display Results
+              </h2>
+              <p class="leading-relaxed text-base" style="text-align: justify;">
+                Displays the Accuracy of the Tumor Detection
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
