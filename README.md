@@ -32,5 +32,3 @@ then by splitting the dataset into training and testing sets with a ration of 80
 
 At the end, we used Sequential Model by keras to build our CNN model, and its respective layers to train the model
 The Model gives the result with an accuracy level of 90%.
-
-Have a look : https://paritosh-j.github.io/Neuro-Care/
