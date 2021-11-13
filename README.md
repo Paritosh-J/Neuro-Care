@@ -10,11 +10,14 @@ with user friendly interface:
 
 - Upload the MRI scan in jpg format.
 
-![5th](https://user-images.githubusercontent.com/75232316/141626668-17bf5774-f4ac-4074-a56b-0287c2fee542.png)
+![6th](https://user-images.githubusercontent.com/75232316/141644017-0e0e8ff3-f392-457a-be05-4862a06ae2bf.png)
 
 - Get the result within seconds with atmost accuracy.
 
+![7th](https://user-images.githubusercontent.com/75232316/141644051-ba39ee2e-d869-41c9-8614-5b0b094d3ac7.png)
 
+
+### Simple to use:
 ![4th](https://user-images.githubusercontent.com/75232316/141612200-bd36f485-9864-44e5-ae7b-248719e253d6.png)
 
 
