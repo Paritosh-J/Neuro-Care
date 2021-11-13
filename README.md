@@ -12,7 +12,7 @@ with user friendly interface:
 
 ![5th](https://user-images.githubusercontent.com/75232316/141626668-17bf5774-f4ac-4074-a56b-0287c2fee542.png)
 
-- Get the result within seconds with utmost accuracy.
+- Get the result within seconds with atmost accuracy.
 
 
 ![4th](https://user-images.githubusercontent.com/75232316/141612200-bd36f485-9864-44e5-ae7b-248719e253d6.png)
